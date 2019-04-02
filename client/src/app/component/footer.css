@@ -1,0 +1,73 @@
+.footer {
+  background: rgb(79, 130, 142);
+  color: white;
+  margin-top: 10px;
+  padding: 30px;
+}
+.headerFooter {
+  font-size: 30px;
+  font-weight: bold;
+}
+.txtFooterHeader {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.footerRegion {
+  float: left;
+  font-size: 14px;
+}
+.footerHeaderRegion {
+  margin-left: 10px;
+  float: left;
+}
+.footerContact {
+  margin-top: 300px;
+  position: relative;
+  bottom: 0px;
+  text-align: right;
+}
+.iconContactSocial {
+  margin-left: 10px;
+  width: 4%;
+  height: auto;
+}
+
+.iconContactSocialSPU {
+  margin-left: 10px;
+  width: 7%;
+  height: auto;
+}
+.txtDepartment {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 767px) and (min-width: 319px) and (orientation: portrait) {
+  .hideFooter {
+    display: none;
+  }
+  .footerContact {
+    margin-top: 0;
+    position: relative;
+    bottom: 0px;
+    text-align: right;
+  }
+
+  .iconContactSocial {
+    margin-left: 10px;
+    width: 20%;
+    height: auto;
+  }
+  .iconContactSocialSPU {
+    width: 20%;
+  }
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px) and (orientation: portrait) {
+  .footerHeaderRegion {
+    font-size: 12px;
+    margin-left: 10px;
+    float: left;
+  }
+}

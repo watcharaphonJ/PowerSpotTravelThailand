@@ -1,0 +1,225 @@
+.cardTour {
+  height: 100%;
+  background: rgb(240, 240, 240);
+  border-radius: 5px;
+}
+
+hr {
+  width: 100%;
+}
+.imgTour {
+  border-radius: 5px 5px 0 0;
+}
+
+.coverDivCardTour {
+  width: 40%;
+  padding: 8px;
+  display: inline-block;
+  transition: 2s;
+}
+.coverDivCardTour :hover {
+  background: white;
+}
+.date {
+  margin-bottom: 10px;
+}
+.nameTour {
+  white-space: normal;
+  font-weight: bold;
+}
+.tourInformation {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: rgb(71, 71, 71);
+  word-wrap: break-word;
+  white-space: normal;
+  max-width: 100%;
+  font-size: 15px;
+}
+.clock {
+  width: 8%;
+  height: auto;
+  display: inline-block;
+}
+.dateAmount {
+  white-space: normal;
+  width: 85%;
+  padding-left: 5px;
+  font-size: 80%;
+  display: inline-block;
+}
+.locationPointer {
+  width: 10%;
+  height: auto;
+  float: left;
+}
+.detailLocation {
+  width: 85%;
+  padding-left: 5px;
+  font-size: 80%;
+  display: inline-block;
+}
+.region .location {
+  white-space: normal;
+}
+
+.divPrice {
+  margin-top: 10px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.detailTour {
+  padding: 5px;
+}
+.iconShare {
+  cursor: pointer;
+  margin-top: 2px;
+  width: 10%;
+  float: right;
+}
+.iconShareWith {
+  display: inline-block;
+  width: 10%;
+  height: auto;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+.styles_modal__gNwvD {
+  max-width: 500px !important;
+}
+
+@media only screen and (max-width: 767px) and (min-width: 319px) and (orientation: portrait) {
+  .cardTour {
+    height: 100%;
+    background: rgb(240, 240, 240);
+    border-radius: 5px;
+  }
+
+  .coverDivCardTour {
+    width: 75%;
+    padding: 8px;
+    display: inline-block;
+  }
+  .nameTour {
+    font-weight: bold;
+  }
+  .date {
+    margin-top: 10px;
+  }
+  .clock {
+    width: 10%;
+    height: auto;
+    display: inline-block;
+  }
+  .dateAmount {
+    width: 85%;
+    padding-left: 5px;
+    font-size: 80%;
+    display: inline-block;
+  }
+  .locationPointer {
+    width: 10%;
+    height: auto;
+    float: left;
+  }
+  .divLocation {
+    margin-top: 10px;
+  }
+  .location {
+    white-space: normal;
+  }
+  .detailLocation {
+    width: 85%;
+    padding-left: 5px;
+    font-size: 80%;
+    display: inline-block;
+  }
+  .divPrice {
+    margin-top: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .detailTour {
+    padding: 5px;
+  }
+  .iconShare {
+    margin-top: 2px;
+    width: 12%;
+    float: right;
+    margin-right: 10px;
+  }
+  .iconShareWith {
+    display: inline-block;
+    width: 15%;
+    margin-left: 10px;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) and (orientation: portrait) {
+  .cardTour {
+    height: 100%;
+    background: rgb(240, 240, 240);
+    border-radius: 5px;
+  }
+
+  .coverDivCardTour {
+    width: 40%;
+    padding: 8px;
+    display: inline-block;
+  }
+  .nameTour {
+    font-weight: bold;
+  }
+  .date {
+    margin-top: 10px;
+  }
+  .clock {
+    width: 20px;
+    height: auto;
+    display: inline-block;
+  }
+  .dateAmount {
+    width: 85%;
+    padding-left: 5px;
+    font-size: 80%;
+    display: inline-block;
+  }
+  .locationPointer {
+    width: 20px;
+    height: auto;
+    float: left;
+  }
+  .divLocation {
+    margin-top: 10px;
+  }
+  .location {
+    white-space: normal;
+  }
+  .detailLocation {
+    width: 85%;
+    padding-left: 5px;
+    font-size: 80%;
+    display: inline-block;
+  }
+  .divPrice {
+    margin-top: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .detailTour {
+    padding: 5px;
+  }
+  .iconShare {
+    margin-top: 2px;
+    width: 30px;
+    float: right;
+    margin-right: 20px;
+  }
+  .iconShareWith {
+    display: inline-block;
+    width: 10%;
+    margin-left: 10px;
+    height: auto;
+  }
+}

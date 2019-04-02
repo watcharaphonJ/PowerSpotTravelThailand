@@ -1,0 +1,96 @@
+.backgroundPromotion {
+  margin: 10px;
+  margin-top: 0;
+  background: #f2bf45;
+  height: auto;
+
+  color: white;
+  border-radius: 5px;
+}
+.alignPromotion {
+  display: inline-block;
+  padding: 20px;
+}
+.txtPromotion {
+  padding-left: 10px;
+  font-size: 20px;
+  margin-top: 10px;
+  width: 130px;
+  border-radius: 0 5px 5px 0;
+  float: left;
+  background: rgb(55, 79, 103);
+}
+.imgPromotion {
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+  float: left;
+  margin-top: 10px;
+}
+.divAlignPromotion {
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 767px) and (min-width: 319px) and (orientation: portrait) {
+  .txtPromotion {
+    width: 120px;
+    font-size: 20px;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 0 5px 5px 0;
+  }
+
+  .alignPromotion {
+    margin: 20px;
+    max-height: 500px;
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    display: block;
+    padding: 20px;
+  }
+  .imgPromotion {
+    margin-left: 10px;
+    width: 100%;
+  }
+
+  .backgroundPromotion {
+    padding-top: 40px;
+  }
+  .promotion {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) and (orientation: portrait) {
+  .txtPromotion {
+    width: 150px;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 0 5px 5px 0;
+    color: white;
+    margin-bottom: 10px;
+  }
+  .alignPromotion {
+    margin: 20px;
+    max-height: 500px;
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: inline-flex;
+    padding: 20px;
+  }
+  .imgPromotion {
+    margin-left: 10px;
+    width: 60%;
+  }
+  .backgroundPromotion {
+    padding: 0;
+  }
+  .promotion {
+    width: 100% !important;
+  }
+}

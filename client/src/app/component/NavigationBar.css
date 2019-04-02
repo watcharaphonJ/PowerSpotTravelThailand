@@ -1,0 +1,304 @@
+#navigation_bar {
+  width: 100%;
+  height: 60px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 170px;
+  padding-left: 10px;
+  background-color: #54bac5;
+}
+.txtHome {
+  line-height: 3;
+  text-decoration: none;
+  color: white;
+  padding-right: 20px;
+  padding-left: 20px;
+  height: 100%;
+}
+#facebookNav {
+  cursor: pointer;
+}
+#navigation_bar .menu_left {
+  padding-left: 170px;
+  float: left;
+  height: 100%;
+}
+#navigation_bar .menu_left .logo {
+  width: auto;
+  height: 100%;
+}
+#navigation_bar .menu_right {
+  text-align: right;
+  height: 100%;
+}
+#navigation_bar .menu_right .link {
+  line-height: 3;
+  background: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  text-decoration: none;
+  width: auto;
+  justify-content: center;
+  color: black;
+  align-items: center;
+}
+.divImgUser {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.txtReg {
+  line-height: 3;
+  background: #256871;
+  width: auto;
+  height: 100%;
+  color: white;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+  transition: 0.5s;
+}
+.txtReg :hover {
+  background: #36adbd;
+  color: rgb(248, 248, 248);
+}
+.iconFacebookNav {
+  vertical-align: middle;
+  cursor: pointer;
+  display: inline-block;
+  width: 3%;
+
+  margin-right: 6px;
+  height: auto;
+}
+.login {
+  text-decoration: none;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 60px;
+  right: 250px;
+  width: 100%;
+  z-index: 99;
+  border-radius: 5px;
+  max-width: 300px;
+  border: 1px solid black;
+  background: white;
+}
+.loginWithAnother {
+  padding-bottom: 10px;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  background: #24b4c1;
+}
+.loginAnotherButton {
+  width: 81px;
+}
+.userIcon {
+  vertical-align: middle;
+  width: 20px;
+  height: 100%;
+  margin-top: 5px;
+  display: inline-block;
+}
+.dropbtn {
+  background: transparent;
+  color: white;
+  padding: 5px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  width: 20%;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-right: 10px;
+  position: relative;
+  display: inline-block;
+  width: 10%;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: transparent;
+}
+.flag {
+  margin-top: 3px;
+  float: left;
+  margin-left: 5px;
+  width: 25px;
+  height: auto;
+  border-radius: 100%;
+}
+.Language {
+  line-height: 2;
+  display: inline-block;
+  width: auto;
+}
+@media only screen and (max-width: 767px) and (min-width: 319px) and (orientation: portrait) {
+  #navigation_bar {
+    padding-right: 10px;
+  }
+  #navigation_bar .menu_left {
+    display: none;
+  }
+  #navigation_bar .menu_right .link {
+    text-align: center;
+    width: 80px;
+    line-height: 2.8;
+  }
+  .menu_right {
+    width: 100%;
+    margin-left: auto;
+    margin-right: 0;
+  }
+
+  .user {
+    width: 20%;
+  }
+  #navigation_bar {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .iconFacebookNav {
+    display: none;
+  }
+
+  .login {
+    top: 60px;
+    right: 10px;
+    border-radius: 5px;
+    max-width: 300px;
+    border: 1px solid black;
+    background: white;
+  }
+  .flag {
+    margin-top: 3px;
+  }
+  .phoneNav {
+    display: none;
+  }
+  .txtLogin {
+    font-size: 10px;
+  }
+  .txtReg {
+    width: 80px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 10px;
+    line-height: 5.5;
+  }
+
+  .txtHome {
+    line-height: 2.4;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .userIcon {
+    width: 20px;
+    margin-top: 6px;
+  }
+  #navigation_bar .menu_right .link {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .dropbtn {
+    display: inline-block;
+    max-height: 40px;
+    padding: 5px;
+  }
+  .dropdown {
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-top: 1px;
+    width: 100px;
+  }
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) and (orientation: portrait) {
+  #navigation_bar {
+    padding-right: 10px;
+    padding-left: 10px;
+    display: flex;
+  }
+  #navigation_bar .menu_left {
+    display: inline-block;
+    float: none;
+    padding-left: 10px;
+  }
+  #navigation_bar .menu_right {
+    display: inline-block;
+  }
+  .login {
+    top: 60px;
+    right: 100px;
+    border-radius: 5px;
+    max-width: 300px;
+    border: 1px solid black;
+    background: white;
+  }
+  .iconFacebookNav {
+    width: 6%;
+  }
+  .flag {
+    margin-top: 3px;
+  }
+  .dropdown {
+    width: 20%;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  .dropbtn {
+    padding: 5px;
+  }
+  .txtReg {
+    line-height: 3;
+  }
+}

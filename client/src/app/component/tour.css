@@ -1,0 +1,63 @@
+.headerPowerSpot {
+  height: auto;
+  margin-top: 20px;
+}
+.divCardTour {
+  max-width: 100%;
+}
+.alignCardTour {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  max-height: 1000px;
+  height: 100%;
+}
+.namePowerSpot {
+  color: #478085;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 10px;
+}
+.locationPowerSpot {
+  color: gray;
+  opacity: 0.9;
+}
+.linkToDetail {
+  color: black;
+}
+@media only screen and (max-width: 767px) and (min-width: 319px) and (orientation: portrait) {
+  .headerPowerSpot {
+    height: auto;
+    margin-top: 20px;
+  }
+  .divCardTour {
+    max-width: 100%;
+  }
+
+  .alignCardTour {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    height: 100%;
+  }
+  .locationPowerSpot {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) and (orientation: portrait) {
+  .headerPowerSpot {
+    height: auto;
+    margin-top: 20px;
+  }
+  .divCardTour {
+    max-width: 100%;
+  }
+
+  .alignCardTour {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    height: 100%;
+  }
+}

@@ -1,0 +1,8 @@
+.borderPowerSpotTag {
+  border-radius: 10px;
+  width: auto;
+  background: #24b4c1;
+  text-align: center;
+  color: white;
+  padding: 10px;
+}

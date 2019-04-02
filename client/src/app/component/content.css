@@ -1,0 +1,38 @@
+.divContent {
+  padding: 0 170px 0 170px;
+  width: 100%;
+}
+
+.tour {
+  vertical-align: top;
+  width: 70%;
+  display: inline-block;
+}
+.promotion {
+  width: 30%;
+  display: inline-block;
+}
+@media only screen and (max-width: 767px) and (min-width: 319px) and (orientation: portrait) {
+  .divContent {
+    padding: 10px;
+    min-width: 100%;
+    margin: 0;
+  }
+  .tour {
+    width: 100%;
+  }
+  .promotion {
+    position: relative;
+  }
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) and (orientation: portrait) {
+  .divContent {
+    padding: 10px;
+    min-width: 100%;
+    margin: 0;
+  }
+  .tour {
+    width: 100%;
+  }
+}

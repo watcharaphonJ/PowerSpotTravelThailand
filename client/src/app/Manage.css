@@ -1,0 +1,98 @@
+.manage {
+    width: 100%;
+}
+.manage .manage_tour_list .manage_tour_title {
+    color: #000;
+    font-size: 20px;
+}
+.manage .manage_tour_list .manage_tour_desc {
+    font-size: 14px;
+    line-height: 1;
+}
+.manage .manage_tour_list .manage_tour {
+    position: relative;
+    float: left;
+    width: 200px;
+    margin: 10px;
+    border-radius: 4px;
+    border: 1px solid #e8e8e8;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.manage .manage_tour_list .manage_tour .manage_tour_image img {
+    width: 100%;height: auto;
+}
+.manage .manage_tour_list .manage_tour .manage_tour_image img:hover {
+    cursor: pointer;
+}
+.manage .manage_tour_list .manage_tour .close {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    width: 20px;height: 20px;
+    font-size: 10px;
+    background-color: #d43e3e;
+    border: 0px;
+    border-radius: 100%;
+    color: #fff;
+    outline: none;
+}
+.manage .manage_tour_list .manage_tour .close:hover {
+    cursor: pointer;
+}
+.manage .manage_tour_list::after {
+    content: ' ';
+    display: block;
+    clear: both;
+}
+.manage .manage_tour_post {
+    width: 500px;height: auto;
+}
+.manage .manage_tour_post form {
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+}
+.manage .manage_tour_post form table {
+    width: 100%;height: auto;
+    border-spacing: 5px;
+    border-collapse: separate;
+}
+.manage .manage_tour_post form input[type="text"], .manage .manage_tour_post input[type="number"], .manage .manage_tour_post input[type="date"]{
+    -webkit-appearance: none;
+    width: 100%;
+    height: 25px;
+    padding: 0px 5px;
+    border: 1px solid #d0d0d0;
+    border-radius: 4px;
+}
+.manage .manage_tour_post form textarea {
+    width: 100%;
+    height: 200px;
+    background-color: #FFF;
+    border-color: #d0d0d0;
+    border-radius: 4px;
+}
+.manage .manage_tour_post form select {
+    width: 100%;
+    height: 25px;
+    background-color: #FFF;
+    border-color: #d0d0d0;
+    border-radius: 4px;
+}
+.manage .manage_tour_post form input[type="submit"] {
+    -webkit-appearance: none;
+    margin-top: 10px;
+    width: 100%;
+    height: 35px;
+    border-radius: 4px;
+    background-color: #55bac5;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    border: 0px solid;
+    outline: none;
+}
+.manage .manage_tour_post form input[type="submit"]:hover {
+    cursor: pointer;
+}

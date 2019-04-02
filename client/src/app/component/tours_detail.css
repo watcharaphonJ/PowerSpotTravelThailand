@@ -1,0 +1,82 @@
+.BG_ToursDetail {
+  width: 1000px;
+  background: rgb(243, 243, 243);
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 5px;
+  margin-bottom: 200px;
+}
+.imgTours {
+  width: 30%;
+  display: inline-block;
+  padding: 20px;
+}
+.detailTours {
+  padding-left: 20px;
+  padding: 20px;
+  vertical-align: top;
+  display: inline-block;
+  width: 70%;
+}
+.nameDetailTours {
+  display: inline-block;
+  font-weight: bold;
+  color: #478085;
+}
+.toursInformation {
+  border-radius: 5px 5px 0 0;
+  margin-top: 20px;
+  background: rgb(230, 230, 230);
+}
+.headerInformation {
+  border-radius: 5px 5px 0 0;
+  color: white;
+  padding: 12px;
+  background: #54bac5;
+}
+.contentInformation {
+  padding: 12px;
+}
+.detailInformation {
+  word-break: break-word;
+  overflow-x: hidden;
+  max-height: 100px;
+  max-width: 100%;
+}
+.imgPayment {
+  margin-top: 20px;
+  float: left;
+  margin-left: 20px;
+  width: 110px;
+}
+
+@media only screen and (max-width: 767px) and (min-width: 319px) and (orientation: portrait) {
+  .BG_ToursDetail {
+    display: grid;
+    width: 100%;
+  }
+  .imgTours {
+    width: 100%;
+  }
+  .detailTours {
+    width: 100%;
+  }
+  .imgPayment {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 50px;
+  }
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) and (orientation: portrait) {
+  .BG_ToursDetail {
+    display: grid;
+    width: 100%;
+  }
+  .imgTours {
+    width: 100%;
+  }
+  .detailTours {
+    width: 100%;
+  }
+}
